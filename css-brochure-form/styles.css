@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: red;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  margin-top: 250px;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  line-height: 1.5rem;
+  color: rgb(80 78 78);
+}
+
+.submitbtn:hover {
+  align-items: center;
+  background-color: rgb(48 47 47);
+  color: white;
+}
+
+div.button {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+select {
+  height: 30px;
+  width: 400px;
+}
+
+input {
+  background-color: whitesmoke;
+  border-radius: 0.3rem;
+  height: 30px;
+  width: 400px;
+}
