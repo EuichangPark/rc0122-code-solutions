@@ -25,12 +25,21 @@ label {
 .submitbtn:hover {
   align-items: center;
   background-color: rgb(48 47 47);
-  color: white;
 }
 
 div.button {
   text-align: right;
   margin-top: 1rem;
+}
+
+button {
+  color: white;
+  font-size: 0.8rem;
+  background-color: rgb(243 82 82);
+  border-radius: 2rem;
+  border-style: hidden;
+  height: 2rem;
+  width: 6rem;
 }
 
 select {
