@@ -45,16 +45,16 @@ body {
   display: flex;
   justify-content: center;
   flex-basis: 33.3%;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin-right: 70px;
+  margin-left: 70px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
 }
 
 h2 {
   font-weight: bold;
   margin-top: 20px;
   padding-bottom: 0.4rem;
-}
-
-p {
-  font-size: 12px;
+  letter-spacing: 1px;
 }
