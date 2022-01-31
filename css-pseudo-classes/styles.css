@@ -1,0 +1,22 @@
+button {
+  padding: 6px 10px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: separate;
+}
+
+tr:nth-child(2n+1) {
+  background: lightgray;
+}
+
+#headtr {
+  color: white;
+  background-color: black;
+}
