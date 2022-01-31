@@ -28,22 +28,16 @@ console.log('value of fullName: ', fullName);
 console.log('type of fullName: ', typeof fullName);
 
 var pH = 6;
-var isAcidic = false;
-if (pH < 7) {
+var isAcidic = pH < 7;
 
-  console.log('Value of isAcidic: ', isAcidic);
-  console.log('type of isAcidic: ', typeof isAcidic);
-}
+console.log('Value of isAcidic: ', isAcidic);
+console.log('type of isAcidic: ', typeof isAcidic);
 
 var headCount = 7;
-var isSparta = false;
-if (headCount === 300) {
-  console.log('Value of isSparta: ', isSparta);
-  console.log('type of isSparta: ', typeof isSparta);
-} else {
-  console.log('Value of isSparta: ', isSparta);
-  console.log('type of isSparta: ', typeof isSparta);
-}
+var isSparta = headCount === 300;
+
+console.log('Value of isSparta: ', isSparta);
+console.log('type of isSparta: ', typeof isSparta);
 
 var motto = fullName;
 motto += ' is the GOAT';
