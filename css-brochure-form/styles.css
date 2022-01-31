@@ -1,0 +1,66 @@
+body {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: red;
+  font-family: "Brandon Grotesque", sans-serif;
+  text-align: center;
+}
+
+form {
+  margin-top: 250px;
+}
+
+div[class] {
+  margin: 1rem;
+}
+
+label {
+  font-size: 11px;
+  line-height: 1.5rem;
+  color: black;
+  font-weight: 800;
+  margin-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+div.button {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+button {
+  color: white;
+  font-size: 0.8rem;
+  background-color: rgb(248 77 77);
+  border-radius: 2.5rem;
+  border-style: hidden;
+  height: 2.4rem;
+  width: 6rem;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: rgb(177 177 177);
+}
+
+select {
+  height: 40px;
+  width: 420px;
+  border-radius: 4px;
+  background-color: rgb(240 239 239);
+}
+
+input {
+  border-radius: 0.3rem;
+  height: 40px;
+  width: 420px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(172 172 172);
+  padding-left: 0.8rem;
+}
