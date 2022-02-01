@@ -39,3 +39,5 @@ var orderHistory = [
   }
 
 ];
+
+console.log('value of orderHistory: ', orderHistory);
