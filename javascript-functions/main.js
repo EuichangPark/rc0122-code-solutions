@@ -1,24 +1,30 @@
 function convertMinutesToSeconds(minutes) {
-  console.log('value of totalMinutes: ', minutes * 60);
+  const seconds = minutes * 60;
+  return seconds;
 }
-convertMinutesToSeconds(5);
+console.log('value of totalMinutes: ', convertMinutesToSeconds(5));
 
 function greet(name) {
-  console.log('greetings: ', '"Hey, ' + name + '"');
+  var greeting = '"Hey, ' + name + '"';
+  return greeting;
 }
-greet('Beavis');
+console.log('value of greet: ', greet('Beavis'));
 
 function getArea(width, height) {
-  console.log('value of getArea: ', width * height);
+  const area = width * height;
+  return area;
 }
 getArea(17, 42);
+console.log('value of getArea: ', getArea(17, 42));
 
 function getFirstName(person) {
-  console.log('value of the firstName: ', person.firstName);
+  var firstName = person.firstName;
+  return firstName;
 }
-getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
+console.log('value of the firstName: ', getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' }));
 
 function getLastElement(array) {
-  console.log('the value of getLastElement: ', array[array.length - 1]);
+  var lastElement = array[array.length - 1];
+  return lastElement;
 }
-getLastElement(['propane', 'and', 'propane', 'accessories']);
+console.log('the value of getLastElement: ', getLastElement(['propane', 'and', 'propane', 'accessories']));
