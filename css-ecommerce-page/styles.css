@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-2 {
+  justify-content: flex-start;
+  flex-basis: 20%;
+}
+
+span {
+  color: lightgray;
+}
+
+.peach-background {
+  background-color: peachpuff;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.color-black {
+  color: black;
+}
