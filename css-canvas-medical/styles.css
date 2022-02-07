@@ -13,66 +13,88 @@ body {
 .header {
   display: flex;
   margin-top: 30px;
+  padding: 25px;
 }
 
-#border-bottom {
-  border-bottom: 1px solid rgb(224 224 224);
+.content {
+  justify-content: flex-end;
 }
 
 .navbar {
   display: flex;
   list-style-type: none;
-  margin-left: 200px;
+  justify-content: right;
 }
 
 .nav-item {
+  font-size: 12px;
   text-decoration: none;
   list-style-type: none;
   margin: 10px;
 }
 
-#blue-logo {
-  width: 50%;
+.blue-logo {
+  max-width: 15%;
 }
 
-.backgroundimage {
+.background-image {
   background-image: url("images/hero.jpg");
   background-size: cover;
-  margin-right: 100px;
-  margin-top: 40px;
-  margin-left: 20px;
   filter: contrast(90%);
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 6rem;
+}
+
+.text-contents {
+  padding: 30px;
+  margin-right: 25rem;
 }
 
 .row {
   display: flex;
 }
 
-#gray-background {
+.col-9 {
+  flex-basis: 75%;
+  justify-content: end;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.3%;
+}
+
+.white-gray-background {
   background-color: rgb(248 248 248);
   padding: 40px;
 }
 
-section {
-  margin: 120px 160px;
-  color: rgb(255 255 255);
-  padding-top: 20px;
-  padding-bottom: 35px;
-  width: 560px;
+.dark-gray-background {
+  background-color: rgb(78 78 78);
+  padding: 40px;
+}
+
+.margin-left {
+  margin-left: 60px;
+}
+
+.white-logo {
+  width: 110px;
+}
+
+.text-white {
+  color: white;
 }
 
 p {
   font-size: 13px;
   line-height: 23px;
-  margin-right: 175px;
-}
-
-h1 {
-  margin-right: 150px;
-  font-family: serif;
-  font-size: 32px;
 }
 
 button {
@@ -89,91 +111,6 @@ button:hover {
   cursor: pointer;
 }
 
-#black-font {
-  color: black;
-}
-
-#darkgray-background {
-  background-color: rgb(53 53 53);
-  color: white;
-}
-
-.col-12-6 {
-  display: flex;
-  flex-basis: 50%;
-}
-
-.row-clinicians {
-  display: flex;
-  margin-left: 100px;
-}
-
-.learn-more {
-  display: flex;
-  flex-basis: 50%;
-}
-
-.learn-more-btn {
-  margin-left: 400px;
-}
-
-.privacy-contact {
-  display: flex;
-}
-
-#white-image {
-  padding: 3rem;
-  width: 50%;
-  margin-left: 35px;
-}
-
-.address {
-  margin-left: 30px;
-  margin-top: 2px;
-  padding: 40px;
-}
-
-.info {
-  display: flex;
-  flex-basis: 50%;
-}
-
-.margin-right {
-  margin-right: 100px;
-}
-
-.margin-top {
-  margin-top: 30px;
-  margin-left: 170px;
-}
-
-.container-clinicians {
-  display: flex;
-  justify-content: center;
-}
-
-.row-clinicians-header {
-  text-align: center;
-  margin-left: 120px;
-}
-
-.physician {
-  margin-left: 130px;
-  margin-right: 70px;
-}
-
-.col-12-6-clinicians {
-  margin-left: 30px;
-}
-
-.col-6 {
-  flex-basis: 50%;
-}
-
-.col-4 {
-  flex-basis: 25%;
-}
-
-.row p {
-  margin: 5px;
+img {
+  max-width: 100%;
 }
