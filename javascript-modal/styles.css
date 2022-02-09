@@ -8,6 +8,16 @@
   background-color: rgb(0 0 0 / 50%);
 }
 
+.modal-block {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 50%);
+}
+
 .modal-content {
   background-color: #fefefe;
   margin: 20% auto;

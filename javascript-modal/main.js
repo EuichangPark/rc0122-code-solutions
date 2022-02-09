@@ -6,9 +6,9 @@ $modalBtn.addEventListener('click', openModal);
 $closeBtn.addEventListener('click', closeModal);
 
 function openModal() {
-  $modal.style.display = 'block';
+  $modal.className = 'modal-block';
 }
 
 function closeModal() {
-  $modal.style.display = 'none';
+  $modal.className = 'modal';
 }
