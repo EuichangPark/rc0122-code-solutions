@@ -26,8 +26,8 @@ console.log('bookString1', booksString1, typeof booksString1);
 console.log('bookString2', booksString2, typeof booksString2);
 console.log('bookString3', booksString3, typeof booksString3);
 
-var student = JSON.stringify({ id: 23454545, name: 'Kent Park' });
-console.log('student: ', student, typeof student);
+var student = '{"id": 323456665, "name": "Euichang Park"}';
+console.log('student string: ', student, typeof student);
 
 var object = JSON.parse(student);
 console.log('object: ', object, typeof object);
