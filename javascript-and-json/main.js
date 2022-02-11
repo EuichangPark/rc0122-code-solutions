@@ -22,12 +22,12 @@ var booksString1 = JSON.stringify(books[0]);
 var booksString2 = JSON.stringify(books[1]);
 var booksString3 = JSON.stringify(books[2]);
 
-console.log(booksString1, typeof booksString1);
-console.log(booksString2, typeof booksString2);
-console.log(booksString3, typeof booksString3);
+console.log('bookString1', booksString1, typeof booksString1);
+console.log('bookString2', booksString2, typeof booksString2);
+console.log('bookString3', booksString3, typeof booksString3);
 
 var student = JSON.stringify({ id: 23454545, name: 'Kent Park' });
-console.log(student, typeof student);
+console.log('student: ', student, typeof student);
 
 var object = JSON.parse(student);
-console.log(object, typeof object);
+console.log('object: ', object, typeof object);
