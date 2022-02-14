@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Rokkitt, serif;
+  font-size: 5.8rem;
+  margin-top: 35vh;
+  letter-spacing: 6px;
+}
+
+.right {
+  color: rgb(144 240 0);
+}
+
+.wrong {
+  color: red;
+}
+
+.first-letter,
+.border-bottom {
+  border-bottom: 4px solid;
+  border-color: black;
+}
