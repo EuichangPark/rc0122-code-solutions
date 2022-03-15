@@ -1,0 +1,181 @@
+    1  cd repos
+    2  cd rc0122-code-solutions/
+    3  git pull origin master
+    4  cd repos
+    5  cd rc0122-code-solutions/
+    6  git pull origin master
+    7  git branch javascript-constructors
+    8  git switch javascript-constructors 
+    9  git status
+   10  git add javascript-constructors/
+   11  git commit -m "Completed javascript-constructors exercise."
+   12  git push origin javascript-constructors 
+   13  git switch master
+   14  git pull origin master
+   15  git branch javascript-timers
+   16  git switch javascript-timers 
+   17  git status
+   18  git add javascript-timers/
+   19  git commit -m "Completed javascript-timers exercise."
+   20  git push origin javascript-timers 
+   21  git status
+   22  git switch master
+   23  git status
+   24  git pull origin master
+   25  git branch javascript-ajax
+   26  git switch javascript-ajax
+   27  git status
+   28  git add javascript-ajax/
+   29  git commit -m "Completed javascript-ajax exercise."
+   30  git push origin javascript-ajax 
+   31  cd repos
+   32  cd rc0122-code-solutions/
+   33  git switch master
+   34  git pull origin master
+   35  git branch javascript-bank
+   36  git switch javascript-bank
+   37  git status
+   38  git add .
+   39  git commit -m "Completed javascript-bank exercise."
+   40  git push origin javascript-bank
+   41  git switch master
+   42  git pull origin master
+   43  git branch javascript-carousel
+   44  git switch javascript-carousel
+   45  git status
+   46  git add javascript-carousel/
+   47  git commit -m "Completed javascript-carousel challenge."
+   48  git push origin javascript-carousel 
+   49  cd repos
+   50  git status
+   51  cd repos
+   52  cd ajax-project/
+   53  git status
+   54  git add .
+   55  git status
+   56  git commit -m "image changes javascript"
+   57  git add .
+   58  git commit -m "image changes every 4 seconds comopleted"
+   59  git add .
+   60  git commit -m "Random Integer generated"
+   61  git add . 
+   62  git commit -m "changeImage deleted"
+   63  git add . 
+   64  git status
+   65  git add .
+   66  git status
+   67  git add .
+   68  git commit -m "search bar added"
+   69  git status
+   70  git add .
+   71  git commit -m "interval stops when Search nav clicked"
+   72  git status
+   73  git add .
+   74  cd repos
+   75  cd ajax-project/
+   76  git status
+   77  git add .
+   78  git commit -m "name and level added to the search result"
+   79  git status
+   80  git add .
+   81  git commit -m "empty css rule set deleted."
+   82  git status
+   83  git add .
+   84  git commit -m "matchFound added"
+   85  cd repos
+   86  cd ajax-project/
+   87  git status
+   88  git add .
+   89  git commit -m "continue search"
+   90  git status
+   91  git add .
+   92  git commit -m "Search continues."
+   93  cd repos
+   94  cd ajax-project/
+   95  git status
+   96  git add .
+   97  git commit -m "Reset search form"
+   98  git push origin ajax-project-issue-2 
+   99  cd repos
+  100  git switch master
+  101  cd ~/repos/rc0122-code-solutions/
+  102  git status
+  103  git switch master
+  104  git pull origin master
+  105  git branch es6-const-let
+  106  git branch --list
+  107  cd repos
+  108  cd rc0122-code-solutions/
+  109  git status
+  110  git switch master
+  111  git branch command-line-basics
+  112  git switch command-line-basics 
+  113  cd command-line-basics
+  114  git switch master
+  115  cd command-line-basics
+  116  git switch command-line-basics
+  117  pwd
+  118  man man
+  119  man cat
+  120  git switch master
+  121  git pull origin master
+  122  git switch command-line-basics
+  123  git status
+  124  man cat
+  125  cat laziness.text
+  126  git status
+  127  git add .
+  128  git status
+  129  cat laziness.txt
+  130  man cat
+  131  cat impatience.txt
+  132  cd command-line-basics
+  133  pwd
+  134  cat laziness.txt
+  135  cat impatience.txt 
+  136  cat hubris.txt 
+  137  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  138  cat three-virtues.txt 
+  139  man ls
+  140  ls
+  141  ls -a
+  142  ls -F
+  143  ls lfz-staff/
+  144  ls -a lfz-staff/
+  145  ls -F lfz-staff/
+  146  ls -aF lfz-staff > lfz-staff/contents.txt
+  147  cat lfz-staff/contents.txt 
+  148  man pwd
+  149  pwd
+  150  pwd > i-was-here.txt
+  151  ls
+  152  cat i-was-here.txt 
+  153  man echo
+  154  echo 'Hellow, World!' > hello.txt
+  155  ls
+  156  cat hello.txt
+  157  man touch
+  158  touch tag-youre-it.txt
+  159  touch snoot/boop.txt
+  160  ls snoot/
+  161  man mkdir
+  162  mkdir parent
+  163  ls parent/
+  164  mkdir -p parent/child/grandchild
+  165  touch parent/child/grandchild/.gitkeep
+  166  ls -a
+  167  man mv
+  168  mv pokiemans pokemon
+  169  ls
+  170  ls -a
+  171  man rm
+  172  rm lol.txt 
+  173  ls
+  174  rm -r kill-me/
+  175  ls
+  176  cp and-then.txt no-and-then.txt
+  177  ls
+  178  ls -a
+  179  cat and-then.txt no-and-then.txt 
+  180  history
+  181  history > command-history.txt
