@@ -11,7 +11,7 @@ const db = new pg.Pool({
 });
 
 const middleware = express.json();
-app.use('/api/grades', middleware);
+app.use(middleware);
 
 app.get('/api/grades', (req, res) => {
   const sql = `
@@ -22,7 +22,6 @@ app.get('/api/grades', (req, res) => {
          "createdAt"
     from "grades"
   `;
-  console.log('Hi');
   db.query(sql)
     .then(result => {
       const grades = result.rows;
@@ -95,12 +94,12 @@ app.put('/api/grades/:gradeId', (req, res) => {
     const params = [req.body.name, req.body.course, score, id];
     db.query(sql, params)
       .then(result => {
-        if (result.rows.length === 0) {
+        const grade = result.rows[0];
+        if (!grade) {
           res.status(404).json({
             error: `grade with id ${id} does not exist`
           });
         } else {
-          const grade = result.rows[0];
           res.status(200).json(grade);
         }
       })
