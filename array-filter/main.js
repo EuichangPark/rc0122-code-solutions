@@ -14,7 +14,7 @@ const names = [
 
 const evenNumbers = numbers.filter(number => number % 2 === 0);
 // eslint-disable-next-line no-console
-console.log(evenNumbers);
+console.log('evenNumbers: ', evenNumbers);
 
 const overFive = numbers.filter(number => number > 5);
 // eslint-disable-next-line no-console

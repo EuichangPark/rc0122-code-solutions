@@ -18,7 +18,7 @@ const traits = [
 ];
 
 const sum = numbers.reduce((sum, number) => sum + number);
-console.log('sum: ', sum);
+console.log('value of sum: ', sum);
 
 const product = numbers.reduce((product, number) => product * number);
 console.log('product: ', product);
