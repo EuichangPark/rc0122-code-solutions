@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 class Stopwatch extends React.Component {
   constructor(props) {
@@ -55,6 +54,5 @@ class Stopwatch extends React.Component {
     );
   }
 }
-ReactDOM.render(<Stopwatch />, document.querySelector('#root'));
 
 export default Stopwatch;
