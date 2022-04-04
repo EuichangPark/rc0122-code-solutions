@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Avenir, sans-serif;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.content {
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+}
+
+.nav-item {
+  font-size: 12px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.blue-logo {
+  max-width: 15%;
+}
+
+.background-image {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  filter: contrast(90%);
+  padding: 6rem;
+}
+
+.text-contents {
+  padding: 30px;
+  margin-right: 25rem;
+}
+
+.row {
+  display: flex;
+}
+
+.col-9 {
+  flex-basis: 75%;
+  justify-content: end;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.3%;
+}
+
+.white-gray-background {
+  background-color: rgb(248 248 248);
+  padding: 40px;
+}
+
+.dark-gray-background {
+  background-color: rgb(78 78 78);
+  padding: 40px;
+}
+
+.margin-left {
+  margin-left: 60px;
+}
+
+.white-logo {
+  width: 110px;
+}
+
+.text-white {
+  color: white;
+}
+
+p {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+button {
+  background-color: #364986;
+  border: none;
+  border-radius: 0.2rem;
+  width: 8rem;
+  height: 2rem;
+  font-size: 13px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
