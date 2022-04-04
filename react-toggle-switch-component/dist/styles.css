@@ -1,0 +1,42 @@
+.center {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.outer {
+  border-radius: 1rem;
+  border-style: solid 1px black;
+  height: 20px;
+  width: 40px;
+}
+
+.off-outer {
+  background-color: gray;
+  border-style: solid 1px black;
+}
+
+.on-outer {
+  display: flex;
+  background-color: green;
+  border-style: solid 1px;
+  justify-content: flex-end;
+}
+
+.inner {
+  border-radius: 50%;
+  background-color: white;
+  border-style: solid 1px black;
+  width: 20px;
+  height: 20px;
+}
+
+.off-inner {
+  position: absolute;
+  background-color: white;
+}
+
+.on-inner {
+  background-color: white;
+  position: absolute;
+  justify-content: flex-end;
+}
