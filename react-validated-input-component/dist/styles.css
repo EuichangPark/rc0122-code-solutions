@@ -1,7 +1,7 @@
-i {
-  width: 20px;
-}
-
 .block {
   display: block;
+}
+
+i {
+  margin-left: 5px;
 }
