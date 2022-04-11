@@ -43,7 +43,7 @@ export default class App extends React.Component {
      * https://developer.mozilla.org/en-US/docs/Web/API/FormData/append
      * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#uploading_a_file
      * https://reactjs.org/docs/uncontrolled-components.html#the-file-input-tag
-     * https://reactjs.org/docs/refs-and-the-dom.html
+     * https://reactjs.org/docs/refs-and-the-dom.html//
      */
     event.preventDefault();
     const formData = new FormData();
